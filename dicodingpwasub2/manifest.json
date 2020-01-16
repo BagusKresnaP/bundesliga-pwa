@@ -1,0 +1,33 @@
+{
+    "name": "Liga Sepakbola",
+    "gcm_sender_id": "772033971976",
+    "short_name": "Bundesliga",
+    "description": "Aplikasi PWA - Seputar Bundesliga",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#CD4141",
+    "theme_color": "#CD4141",
+    "icons": [
+        {
+            "src": "img/icon/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }, {
+            "src": "img/icon/icon-128x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        }, {
+            "src": "img/icon/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        }, {
+            "src": "img/icon/ms-touch-icon-144x144-precomposed.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }, {
+            "src": "img/icon/chrome-touch-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}

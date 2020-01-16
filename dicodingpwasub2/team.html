@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bundesliga Jerman | Klasemen</title>
+    <meta name="description" content="Submission 2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#CD4141" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <nav role="navigation" style="background-color: #CD4141;">
+      <div class="nav-wrapper container">
+        <a href="./index.html" class="brand-logo" id="logo-container">Seputar Bundesliga</a>
+        <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">arrow_back</i></a>
+        </a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="center-align" id="loader"></div>
+    <div class="container" id="body-content"></div>
+
+    <div id="save" class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">favorite</i>
+        </a>
+    </div>
+    <div id="tombol_delete" class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">delete</i>
+      </a>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/team.js"></script>
+  </body>
+</html>
