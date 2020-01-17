@@ -17,10 +17,12 @@ if (workbox) {
     { url: '/manifest.json', revision: '1' },
     { url: '/nav.html', revision: '1' },
     { url: '/team.html', revision: '1' },
-    { url: '/match.html', revision: '1' },
+    // { url: '/match.html', revision: '1' },
     { url: '/tim_favorit.html', revision: '1' },
     { url: '/"https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js', revision: '1' },
-  ]);
+  ], {
+    ignoreUrlParametersMatching: [/.*/]
+  });
 
   workbox.routing.registerRoute(
     /.*(?:png|gif|jpg|jpeg|svg|webp)$/,
